@@ -4,6 +4,8 @@ import os
 import random
 
 
+"""Change those variables for your needs"""
+FILENAME = 'test.mp4'
 START = 0
 MIDDLE = 15
 END = 30
