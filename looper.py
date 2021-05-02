@@ -36,7 +36,7 @@ class VLC:
 
 
 if __name__ == '__main__':
-    player = VLC('test.mkv')
+    player = VLC(FILENAME)
     try:
         player.loop()
     except KeyboardInterrupt:
